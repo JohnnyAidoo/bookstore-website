@@ -1,0 +1,63 @@
+:root{
+    --primary: #F1FAEE;
+    --secondary : #A8DADC;
+    --secondary2: #1D3557 ;
+    --ctr : #E63946;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0 5%;
+    height: 10vh;
+    background-color: var(--secondary);
+}
+header nav{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero{
+    height: 80vh;
+    background: url(../images/heroimg.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+}
+.hero #herotext{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.356);
+    text-align: left;
+    padding: 10% 5%;
+    color: var(--primary);
+}
+.hero #herotext #big{
+ font-size: xx-large;
+ font-weight: bold
+ ;
+}
+
+.hero #herotext b{
+    font-size: x-large;
+}
+.hero #herotext button{
+    font-size: x-large;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 1%;
+    background-color: var(--ctr);
+
+}
+
+.backshadow{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
