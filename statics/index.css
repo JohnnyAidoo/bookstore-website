@@ -8,6 +8,13 @@ body{
     padding: 0;
     margin: 0;
 }
+i{
+    color: black;
+}
+i:hover{
+    font-size: large;
+    color: var(--ctr);
+}
 button{
     font-weight: bold;
     border: none;
@@ -96,6 +103,9 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.book b{
+    margin-top: 5%;
 }
 .book button{
     padding: 1.5% 5%;
